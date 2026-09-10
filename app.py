@@ -32,7 +32,7 @@ st.set_page_config(
 # Configuration
 # -----------------------------
 
-MODEL = os.getenv("GROQ_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"")
 
 CAREERS = [
     {
