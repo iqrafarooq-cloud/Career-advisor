@@ -32,7 +32,7 @@ st.set_page_config(
 # Configuration
 # -----------------------------
 
-MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+MODEL = os.getenv("GROQ_MODEL", "gemini-2.5-flash")
 
 CAREERS = [
     {
